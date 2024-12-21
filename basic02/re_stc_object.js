@@ -3,9 +3,12 @@
 const obje = 
     {
         email:"mohsin@gmail.com",
-        city : "hasilpur"
+        city : "hasilpur",
+        objec:{
+            class:"mcs"
+        }
     }
 
-const {email:em}= obje
+const {class:em}= obje.objec
 
 console.log(em)
